@@ -1,0 +1,32 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 16px;
+}
+
+h1 {
+    border-bottom: 1px solid #000;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.flex-container>section {
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 42px;
+}
+
+.workshops>section {
+    width: 446px;
+}
+
+.conferences>section {
+    width: 282.6px;
+}

@@ -1,0 +1,23 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.flex-container>section {
+    padding: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    /* (960 - total gap(16*2) - total padding (16*6) - total border (1*6)) / 3 */
+    width: 275.3px;
+}
+
+section.double-width {
+    /* 2/3 width from above + 2 padding + 2 border + 1 grap */
+    width: 600.6px;
+}

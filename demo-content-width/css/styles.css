@@ -1,0 +1,30 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-style: 100%;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    width: 288px;
+    padding: 16px;
+}
+
+.column-left {
+    background-color: tomato;
+}
+
+.column-middle {
+    background-color: gold
+}
+
+.column-right {
+    background-color: orange
+}
